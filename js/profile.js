@@ -6,7 +6,7 @@ const profile = {
   email: 'csakiny@gmail.com',
   discord: {
     link: 'https://discord.com/users/1426289285551755284',
-    username: 'costaffxx',
+    username: '84su',
   },
   telegram: {
     link: 'https://t.me/costaffxx/',
