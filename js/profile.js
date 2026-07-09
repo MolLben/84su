@@ -1,16 +1,16 @@
 const profile = {
-  name: 'webfun',
-  hostname: 'fun',
+  name: 'costa',
+  hostname: 'root',
   role: 'Freelance Developer',
   love: 'Coding for fun',
-  email: 'hello@webfun.dev',
+  email: 'csakiny@gmail.com',
   discord: {
-    link: 'https://discord.com/users/yourusername',
-    username: 'yourusername',
+    link: 'https://discord.com/users/1426289285551755284',
+    username: 'costaffxx',
   },
-  github: {
-    link: 'https://github.com/yourusername',
-    username: 'yourusername',
+  telegram: {
+    link: 'https://t.me/costaffxx/',
+    username: 'costaffxx',
   },
   skills: {
     languages: ['JavaScript', 'TypeScript', 'Python', 'Go', 'Rust'],
@@ -33,7 +33,7 @@ function infoHtml() {
       <div><span class="accent">Role</span>: ${profile.role}</div>
       <div><span class="accent">Love</span>: ${profile.love}</div>
       <div><span class="accent">Discord</span>: <a href="${profile.discord.link}" target="_blank" class="link">${profile.discord.username}</a></div>
-      <div><span class="accent">Github</span>: <a href="${profile.github.link}" target="_blank" class="link">${profile.github.username}</a></div>
+      <div><span class="accent">Telegram</span>: <a href="${profile.telegram.link}" target="_blank" class="link">${profile.telegram.username}</a></div>
       <div><span class="accent">Email</span>: <a href="mailto:${profile.email}" class="link">${profile.email}</a></div>
       <div class="info-clear"></div>
     </div>
